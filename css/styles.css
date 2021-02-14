@@ -1,0 +1,122 @@
+/********** Basic Styles & Resets **********/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color-beaver: #9e7f66;
+  --primary-color-codGray: #111111;
+  --secondary-color-mirage: #17192b;
+  --secondary-color-ebonyClay: #242b37;
+  --secondary-color-shuttleGray: #5c6779;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  border: 2px dotted green;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--secondary-color-ebonyClay);
+  font-weight: bold;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 6.4rem;
+  line-height: 7.2rem;
+  letter-spacing: -0.08rem;
+  margin-bottom: 2.4rem;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 5.6rem;
+  letter-spacing: -0.05rem;
+  margin-bottom: 1.6rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.8rem;
+  margin-bottom: 4rem;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 3rem;
+  letter-spacing: -0.02rem;
+}
+
+.btn {
+  font-family: "Spartan", sans-serif;
+  padding: 2.4rem 5.5rem;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.2rem;
+  outline: transparent;
+  color: #fff;
+  text-transform: uppercase;
+  /* width: 24.5rem; */
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+.btn-solid {
+  background-color: #111;
+}
+/********** End Basic Styles & Resets **********/
+
+/********** Header **********/
+
+.header {
+  background-image: url("/images/homepage/hero-bg-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.logo {
+  margin-bottom: 15.3rem;
+}
+
+.header-text-bg {
+  background-color: #000;
+  height: 100%;
+  width: 55rem;
+  position: relative;
+}
+
+.header-text {
+  position: absolute;
+  top: 6.5rem;
+  left: 16.5rem;
+}
+
+.header-text h1,
+.header-text p {
+  color: #fff;
+  width: 52.3rem;
+}
+
+.header-text p {
+  margin-bottom: 4.2rem;
+}
+/********** End Header **********/
